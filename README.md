@@ -3,7 +3,7 @@
 Use C++ to implement Word2vec(word embeding tool)
 
 
-项目是对Word2Vec的实现，参照peghoty的博客（https://www.cnblogs.com/peghoty/p/3857839.html）学习Word2Vec中的数学原理和代码实现。然后使用C++语言复现。
+项目是对Word2Vec的实现，参照peghoty的博客（https://www.cnblogs.com/peghoty/p/3857839.html） 学习Word2Vec中的数学原理和代码实现。然后使用C++语言复现。
 
 项目实现了基于Hierarchical Softmax 的 CBOW、Skip-gram模型以及基于Negative Sampling 的 CBOW模型。
 
