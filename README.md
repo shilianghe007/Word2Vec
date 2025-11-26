@@ -1,14 +1,13 @@
 # Word2Vec
-使用C++实现Word2Vec模型（计算词向量） 
-Use C++ to implement Word2vec(word embeding tool)
+Implementing the Word2Vec model in C++ (for learning word embeddings)
 
+This project is an implementation of Word2Vec. Following peghoty’s blog (https://www.cnblogs.com/peghoty/p/3857839.html), I studied both the mathematical principles behind Word2Vec and its code structure, and then reproduced the model using C++.
 
-项目是对Word2Vec的实现，参照peghoty的博客（https://www.cnblogs.com/peghoty/p/3857839.html） 学习Word2Vec中的数学原理和代码实现。然后使用C++语言复现。
+The project implements the CBOW and Skip-gram models with Hierarchical Softmax, as well as the CBOW model with Negative Sampling.
 
-项目实现了基于Hierarchical Softmax 的 CBOW、Skip-gram模型以及基于Negative Sampling 的 CBOW模型。
+Corpus:
+A lightweight Wikipedia-based corpus with over 10 million tokens was used. Since parallel training has not been implemented yet, the current single-threaded training takes roughly an entire day to complete.
 
-语料库：使用基于维基百科的轻量级语料库文件，共有1000多万词语，暂时没有实现并行处理，单线程下需要一整天左右训练完成。
-
-语料库已上传至百度网盘
-链接：https://pan.baidu.com/s/1RbD1umuJX5mggU13Gz4nRw 
-提取码：pjmk
+The corpus has been uploaded to Baidu Netdisk:
+Link: https://pan.baidu.com/s/1RbD1umuJX5mggU13Gz4nRw
+Extraction code: pjmk
